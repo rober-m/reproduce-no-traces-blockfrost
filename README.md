@@ -1,4 +1,4 @@
-# Repo to demostrate issue
+# Repo to demonstrate [issue 297](https://github.com/blockfrost/blockfrost-js/issues/297)
 
 ## Notes
 
