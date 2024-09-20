@@ -3,10 +3,10 @@
 ## Notes
 
 - `dummy` is a folder containing the on-chain code to be submitted by the script inside the `off-chain` folder.
-- There's no need to do anything on the `dummy` folder. The relevant files to inspect (if necesary) are:
+- There's no need to do anything on the `dummy` folder. The relevant files to inspect (if necessary) are:
     - `dummy/validators/dummy.ak`: validator source code
     - `dummy/plutus.json`: validator cbor and hash
-    - `dummy/artifacts/dummy.always_false_with_traces.else.uplc`: UPCL code that we're submitting to the chain
+    - `dummy/artifacts/dummy.always_false_with_traces.else.uplc`: UPCL code we're submitting to the chain. You can inspect the file to see that the traces are indeed there.
 - The validators were compiled with the command: `aiken build --trace-level verbose --filter-traces all --uplc`
 
 ## Steps to reproduce issue:
